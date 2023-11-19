@@ -11,14 +11,14 @@
     <!--Elemento que corresponde ao HTML-->
     <h1>Bem vindo ao meu App Vue</h1>
     <!-- Estou definindo que texto vai ser atribuido a propriedade que foi definida dentro do elemento -->
-    <p>{{ texto }}</p>
+    <!-- <p>{{ texto }}</p> -->
 </template>
 
 <script>
     //Elemento que compreende ao Javascript
     //Como nosso component está isolado temos que exportar ele
     export default {
-        name: 'Newcomponent.vue',
+        name: 'NovoComponenteVue',
         props: {
             texto: String
         }
