@@ -9,7 +9,7 @@
 
 <template>
     <!--Elemento que corresponde ao HTML-->
-    <h1>Bem vindo ao meu App Vue</h1>
+    <h1>{{ texto }}</h1>
     <!-- Estou definindo que texto vai ser atribuido a propriedade que foi definida dentro do elemento -->
     <!-- <p>{{ texto }}</p> -->
 </template>
