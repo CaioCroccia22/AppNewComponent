@@ -8,10 +8,12 @@
 -->
 
 <template>
-    <!--Elemento que corresponde ao HTML-->
-    <h1>{{ texto }}</h1>
-    <!-- Estou definindo que texto vai ser atribuido a propriedade que foi definida dentro do elemento -->
-    <!-- <p>{{ texto }}</p> -->
+    <div>
+        <!--Elemento que corresponde ao HTML-->
+        <h1>{{ texto }}</h1>
+        <!-- Estou definindo que texto vai ser atribuido a propriedade que foi definida dentro do elemento -->
+        <p v-text="texto"></p>
+    </div>
 </template>
 
 <script>

@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <!-- 3) Utilizar o component -->
-    <NovoComponenteVue texto="Este é o texto para o parágrafo"/>
+    <NovoComponenteVue texto="Essa é a diretiva conhecida como v-text, permite a apresentação de textos, tal como ocorrido quando usamos diretivas diretas"/>
   </div>
 </template>
 
